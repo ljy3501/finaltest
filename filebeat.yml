@@ -1,0 +1,17 @@
+filebeat.inputs:
+- type: log
+
+  # Change to true to enable this input configuration.
+  enabled: true
+
+  # Paths that should be crawled and fetched. Glob based paths.
+  paths:
+    - /Users/taetaetae/develop/elastic-stack/101_DT_COVID19_004_20211107144457.csv
+
+# output.elasticsearch:
+  # Array of hosts to connect to.
+#  hosts: ["localhost:9200"]
+
+output.logstash:
+  # The Logstash hosts
+  hosts: ["localhost:5044"]
