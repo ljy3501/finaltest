@@ -77,5 +77,5 @@ ndf.head()
 # In[10]:
 
 
-ndf.to_csv('일일확진자.csv', index=False, header=False, encoding='utf8')
+ndf.to_csv('korona_world.csv', index=False, header=False, encoding='utf8')
 
