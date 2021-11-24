@@ -6,7 +6,7 @@ filebeat.inputs:
 
   # Paths that should be crawled and fetched. Glob based paths.
   paths:
-    - /Users/taetaetae/develop/elastic-stack/101_DT_COVID19_004_20211107144457.csv
+    - /Users/taetaetae/develop/elastic-stack/korona_world.csv
 
 # output.elasticsearch:
   # Array of hosts to connect to.
