@@ -8,7 +8,6 @@
 
 
 import pandas as pd
-import csv
 
 df=pd.read_csv('101_DT_COVID19_004_20211107144457.csv')
 df.head()
